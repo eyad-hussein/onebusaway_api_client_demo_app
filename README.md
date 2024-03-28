@@ -1,16 +1,29 @@
 # onebusaway_api_client_demo_app
 
-A new Flutter project.
+This is the OneBusAway Client API demo app for testing the API Client library made with Dart.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Make sure you clone the library's repository first from [here](https://github.com/eyad-hussein/onebusaway_api_client_library).
 
-A few resources to get you started if this is your first Flutter project:
+Then, clone the `onebusaway_api_client_demo_app` repository.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+After cloning the app's repository, ensure that you set the path of the `onebusaway_api_client_library` in the `pubspec.yaml` file to the same path you cloned the `onebusaway_api_client_library` to.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```yaml
+dependencies:
+  onebusaway_api_client_library:
+    path: /path_to_onebusaway_api_client_library
+```
+
+Next,
+
+```bash
+cd path_to_onebusaway_api_client_demo_app
+```
+
+Then,
+
+```bash
+flutter run
+```
